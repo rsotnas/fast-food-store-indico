@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Indico",
+    "collectionId": "81176e0e-908f-47fc-887b-caac4e89f7b0",
+    "dateExported": "2024-06-26T19:05:51.036Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0618f191-97f2-4071-b94b-16c54cf24b15",
+            "colId": "81176e0e-908f-47fc-887b-caac4e89f7b0",
+            "containerId": "",
+            "name": "http://localhost:5000/store",
+            "url": "http://localhost:5000/store",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-26T18:19:31.751Z",
+            "modified": "2024-06-26T18:19:31.751Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"establishedyear\": 2005,\n        \"location\": \"New York, NY\",\n        \"numberofemployees\": 20,\n        \"owner\": \"Alice Johnson\",\n        \"storeid\": 7,\n        \"storename\": \"Burger Castle\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b4af2c37-9eb0-4467-bf7d-fac6b45ec1d8",
+            "colId": "81176e0e-908f-47fc-887b-caac4e89f7b0",
+            "containerId": "",
+            "name": "http://localhost:5000/store",
+            "url": "http://localhost:5000/store/5",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-26T18:19:43.799Z",
+            "modified": "2024-06-26T18:20:40.045Z",
+            "headers": []
+        },
+        {
+            "_id": "2ff743d1-7467-41d8-b0dd-2c317e1c4b69",
+            "colId": "81176e0e-908f-47fc-887b-caac4e89f7b0",
+            "containerId": "",
+            "name": "http://localhost:5000/stores",
+            "url": "http://localhost:5000/stores",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-26T18:20:02.902Z",
+            "modified": "2024-06-26T18:20:02.902Z",
+            "headers": []
+        },
+        {
+            "_id": "ea9648dc-72ba-4c3f-98b0-ff1721aeb4dc",
+            "colId": "81176e0e-908f-47fc-887b-caac4e89f7b0",
+            "containerId": "",
+            "name": "http://localhost:5000/store",
+            "url": "http://localhost:5000/store/9",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-06-26T18:21:30.415Z",
+            "modified": "2024-06-26T18:26:42.714Z",
+            "headers": []
+        },
+        {
+            "_id": "f4fea6b3-1a41-44b1-8cff-0a4940280bc6",
+            "colId": "81176e0e-908f-47fc-887b-caac4e89f7b0",
+            "containerId": "",
+            "name": "http://localhost:5000/store",
+            "url": "http://localhost:5000/store/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-06-26T18:35:54.041Z",
+            "modified": "2024-06-26T19:05:24.635Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"location\": \"São Paulo, SP\",\n\"establishedyear\": 2006,\n\"numberofemployees\": 100\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "9bHPCCZc4eoZep8R2Ola-TqWp4klasVB7LlF1gPCtWRVui5URDgrp87RcHH-pjb___wJ0g-DBfpPIQgg9MXnIQ"
+}
